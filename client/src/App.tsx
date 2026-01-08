@@ -1,12 +1,5 @@
-import './App.css'
+import ProjectDashboard from "./pages/ProjectDashboard";
 
-function App() {
-
-  return (
-    <>
-      <h1 className='text-9xl'>VoiceAIWrapper</h1>
-    </>
-  )
+export default function App() {
+  return <ProjectDashboard />;
 }
-
-export default App
